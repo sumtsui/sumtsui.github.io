@@ -108,6 +108,7 @@ footer {
 footer p {
   text-align: center;
   font-size: 12px;
+  user-select: all;
 }
 
 .gray {
@@ -124,9 +125,22 @@ footer p {
   section#header img {
     height: 500px;
   }
+  section#my-services .right {
+    min-height: 400px;
+  }
   .left,
   .right {
     flex: unset;
+  }
+}
+
+@media (min-width: 768px) {
+  section#work-with-me .right,
+  section#my-services .right {
+    margin-left: 40px;
+  }
+  section#work-with-me .right h4:first-child {
+    margin-top: 0;
   }
 }
 

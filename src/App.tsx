@@ -6,6 +6,9 @@ import Project1Image2 from "./images/project-1-2.jpeg";
 import Project2Image1 from "./images/project-2-1.jpeg";
 import Project2Image2 from "./images/project-2-2.jpeg";
 import TechStackImage from "./images/tech-stacks.jpeg";
+import MeImage from "./images/ludigi-me.jpg";
+import RemoteWorkImage from "./images/remote-work.jpg";
+import WorkWithMeImage from "./images/work-with-me.jpeg";
 
 const App = () => {
   return (
@@ -39,20 +42,18 @@ const App = () => {
           <div className="flex">
             <div className="left" style={{ minHeight: "400px" }}>
               <h2>ABOUT ME</h2>
-              <img src={PlaceholderImage} alt="a man" />
+              <img src={MeImage} alt="haochen" />
             </div>
             <div className="right">
               <h3>I am a web and mobile app developer</h3>
               <p>
-                I've spent the last 7 years working with businesses of all
-                sizes. My full-time roles as a senior software engineer at EPAM
-                Systems (NYSE: EPAM) and Expedia Group (NASDAQ: EXPE) have given
-                me experience with large-scale operations and complex systems.
-              </p>
-              <p>
-                On the side, I've enjoyed helping local businesses thrive in the
-                digital world. From building company websites to providing data
-                management solutions.
+                My name is Haochen <i>(how-chen), he/him</i>. Over the past 7
+                years, I've worked with businesses of all sizes, including
+                full-time roles as a senior software engineer at EPAM Systems
+                (NYSE: EPAM) and Expedia Group (NASDAQ: EXPE). These positions
+                provided me with valuable experience in large-scale operations
+                and complex systems. Currently, I work as an independent
+                consultant/contractor.
               </p>
             </div>
           </div>
@@ -63,7 +64,9 @@ const App = () => {
           <div className="flex">
             <div className="left">
               <p>
-                I help businesses thrive online with custom digital solutions.
+                I've enjoyed helping local businesses thrive in the digital
+                world. From building company websites to providing data
+                management solutions.
               </p>
               <ul>
                 <li>Building tailored websites</li>
@@ -75,16 +78,22 @@ const App = () => {
                 <li>Customizing platforms like WordPress and Shopify</li>
               </ul>
               <p>
-                While I excel in development, I don't do graphic design. I'm
-                happy to collaborate with your designer to bring your vision to
-                life!
+                My consulting background allows me to go beyond simply
+                fulfilling client requests. I work closely with clients to
+                uncover underlying problems and provide constructive ideas and
+                feedback.
+              </p>
+              <p>
+                <i>
+                  Something to note: While my strength is in development, I'm
+                  not a graphic designer. I'm happy to collaborate with your
+                  designer to bring your vision to life.
+                </i>
               </p>
             </div>
-            <img
-              className="right"
-              src={PlaceholderImage}
-              alt="Close-up of a mechanical keyboard"
-            />
+            <div className="right">
+              <img src={RemoteWorkImage} alt="Remote work" />
+            </div>
           </div>
         </section>
 
@@ -164,7 +173,7 @@ const App = () => {
           <div className="contact-info flex">
             <img
               className="left"
-              src={PlaceholderImage}
+              src={WorkWithMeImage}
               alt="Developer in an office setting"
             />
             <div className="right">
