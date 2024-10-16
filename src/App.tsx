@@ -11,7 +11,7 @@ const App = () => {
   return (
     <body>
       <main>
-        <section className="header flex">
+        <section className="header flex" style={{ padding: 0 }}>
           <div
             className="left"
             style={{
@@ -28,20 +28,17 @@ const App = () => {
             </h1>
             <p>TECH CONSULTING STUDIO</p>
           </div>
-          <div className="right">
-            <img
-              src={WorkspaceImage}
-              style={{ objectFit: "cover" }}
-              alt="Workspace with computer monitor showing landscape"
-            />
-          </div>
+          <img
+            className="right"
+            src={WorkspaceImage}
+            style={{ objectFit: "cover" }}
+            alt="Workspace with computer monitor showing landscape"
+          />
         </section>
         <section>
           <h2>ABOUT ME</h2>
           <div className="flex">
-            <div className="left">
-              <img src={PlaceholderImage} alt="a man" />
-            </div>
+            <img src={PlaceholderImage} className="left" alt="a man" />
             <div className="right">
               <h3>I am a web and mobile app developer</h3>
               <p>
@@ -81,12 +78,11 @@ const App = () => {
                 life!
               </p>
             </div>
-            <div className="right">
-              <img
-                src={PlaceholderImage}
-                alt="Close-up of a mechanical keyboard"
-              />
-            </div>
+            <img
+              className="right"
+              src={PlaceholderImage}
+              alt="Close-up of a mechanical keyboard"
+            />
           </div>
         </section>
 
@@ -146,7 +142,7 @@ const App = () => {
             </div>
           </div>
         </section>
-        <section className="flex" style={{ minHeight: "500px" }}>
+        <section className="flex">
           <div className="left">
             <h3>My Tech Stacks</h3>
             <p>
@@ -155,9 +151,7 @@ const App = () => {
               and pick the perfect tools to build something amazing for you.
             </p>
           </div>
-          <div className="right">
-            <img src={TechStackImage} alt="Tech Stacks" />
-          </div>
+          <img src={TechStackImage} className="right" alt="Tech Stacks" />
         </section>
 
         <section id="work-with-me">

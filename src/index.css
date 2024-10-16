@@ -35,7 +35,6 @@ h1 {
   font-size: 120px;
   font-weight: 400;
   line-height: 130px;
-  margin-top: 20px;
 }
 
 header p {
@@ -96,22 +95,23 @@ section {
   padding: 100px;
 }
 
-section.header {
-  padding: 0;
-}
-section.header .left {
-  padding: 40px;
+section.header img {
+  height: 800px;
 }
 
 @media (max-width: 768px) {
   .flex {
     flex-direction: column;
   }
-}
-
-@media (max-width: 768px) {
   section {
-    padding: 0;
+    padding: 40px 14px;
+  }
+  section.header img {
+    height: 500px;
+  }
+  .left,
+  .right {
+    flex: unset;
   }
 }
 
