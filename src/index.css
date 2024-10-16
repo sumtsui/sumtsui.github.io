@@ -37,7 +37,7 @@ h1 {
   line-height: 130px;
 }
 
-header p {
+#header p {
   font-family: "PosteramaLight";
   font-weight: 400;
   font-size: 20px;
@@ -53,6 +53,7 @@ h3 {
   font-family: "BogartRegular";
   font-weight: 400;
   font-size: 47px;
+  margin-top: 0;
 }
 
 h4 {
@@ -95,8 +96,19 @@ section {
   padding: 100px;
 }
 
-section.header img {
+section#header img {
   height: 800px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.gray {
+  background-color: #f6f6f6;
 }
 
 @media (max-width: 768px) {
@@ -106,7 +118,7 @@ section.header img {
   section {
     padding: 40px 14px;
   }
-  section.header img {
+  section#header img {
     height: 500px;
   }
   .left,
@@ -116,7 +128,7 @@ section.header img {
 }
 
 @media (min-width: 1400px) {
-  body {
+  main {
     padding: 0 30px;
   }
 }

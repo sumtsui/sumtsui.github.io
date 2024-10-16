@@ -9,11 +9,11 @@ import TechStackImage from "./images/tech-stacks.jpeg";
 
 const App = () => {
   return (
-    <body>
+    <>
       <main>
-        <section className="header flex" style={{ padding: 0 }}>
+        <section id="header" className="flex" style={{ padding: 0 }}>
           <div
-            className="left"
+            className="left gray"
             style={{
               display: "flex",
               flexDirection: "column",
@@ -35,10 +35,12 @@ const App = () => {
             alt="Workspace with computer monitor showing landscape"
           />
         </section>
-        <section>
-          <h2>ABOUT ME</h2>
+        <section id="about-me">
           <div className="flex">
-            <img src={PlaceholderImage} className="left" alt="a man" />
+            <div className="left" style={{ minHeight: "400px" }}>
+              <h2>ABOUT ME</h2>
+              <img src={PlaceholderImage} alt="a man" />
+            </div>
             <div className="right">
               <h3>I am a web and mobile app developer</h3>
               <p>
@@ -56,7 +58,7 @@ const App = () => {
           </div>
         </section>
 
-        <section id="my-services">
+        <section id="my-services" className="gray">
           <h2>MY SERVICES</h2>
           <div className="flex">
             <div className="left">
@@ -86,12 +88,11 @@ const App = () => {
           </div>
         </section>
 
-        <section>
+        <section id="project-1">
           <h2>WORK</h2>
           <div className="project-images flex" style={{ alignItems: "center" }}>
             <img
               className="left"
-              style={{ marginRight: "-10%" }}
               src={Project1Image1}
               alt="Laptop showing website design"
             />
@@ -113,7 +114,7 @@ const App = () => {
             </p>
           </div>
         </section>
-        <section className="flex">
+        <section id="project-2" className="flex">
           <div className="left">
             <h3>Full Solution</h3>
             <p>
@@ -142,7 +143,7 @@ const App = () => {
             </div>
           </div>
         </section>
-        <section className="flex">
+        <section id="tech-stacks" className="flex">
           <div className="left">
             <h3>My Tech Stacks</h3>
             <p>
@@ -154,15 +155,14 @@ const App = () => {
           <img src={TechStackImage} className="right" alt="Tech Stacks" />
         </section>
 
-        <section id="work-with-me">
-          <h3>Work with me</h3>
+        <section id="work-with-me" className="gray">
+          <h3>Work with Me</h3>
           <div className="contact-info flex">
-            <div className="left">
-              <img
-                src={PlaceholderImage}
-                alt="Developer in an office setting"
-              />
-            </div>
+            <img
+              className="left"
+              src={PlaceholderImage}
+              alt="Developer in an office setting"
+            />
             <div className="right">
               <div className="details">
                 <div className="languages">
@@ -182,7 +182,12 @@ const App = () => {
           </div>
         </section>
       </main>
-    </body>
+      <footer>
+        <p style={{ margin: 0 }}>
+          © {new Date().getFullYear()} Ludigi. All rights reserved.
+        </p>
+      </footer>
+    </>
   );
 };
 
