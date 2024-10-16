@@ -23,7 +23,7 @@ const App = () => {
               alignItems: "center",
             }}
           >
-            <p>PORTFOLIO</p>
+            <p style={{ marginTop: "100px" }}>PORTFOLIO</p>
             <h1>
               ludigi.
               <br />

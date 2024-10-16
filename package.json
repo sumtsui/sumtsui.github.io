@@ -20,7 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "upload": "npm run build && scp -i ~/.ssh/my-mac-alicloud-hk.pem -r ./build/* root@8.217.183.255:/root/nginx-certbot/data/www/html/ludigi.work/"
   },
   "eslintConfig": {
     "extends": [
