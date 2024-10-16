@@ -1,41 +1,46 @@
 import React from "react";
 import WorkspaceImage from "./images/workspace.jpg";
-// import ProfilePicture from "./images/profile.jpg";
-// import KeyboardImage from "./images/keyboard.jpg";
-// import LaptopScreenshot from "./images/laptop-screenshot.jpg";
-// import MobileScreenshot1 from "./images/mobile-screenshot-1.jpg";
-// import MobileScreenshot2 from "./images/mobile-screenshot-2.jpg";
-// import AppScreenshot1 from "./images/app-screenshot-1.jpg";
-// import AppScreenshot2 from "./images/app-screenshot-2.jpg";
+import PlaceholderImage from "./images/placeholder-image.webp";
+import Project1Image1 from "./images/project-1-1.jpeg";
+import Project1Image2 from "./images/project-1-2.jpeg";
+import Project2Image1 from "./images/project-2-1.jpeg";
+import Project2Image2 from "./images/project-2-2.jpeg";
+import TechStackImage from "./images/tech-stacks.jpeg";
 
 const App = () => {
   return (
     <body>
       <main>
-        <section className="header">
-          <div className="flex">
-            <div className="left">
-              <p>PORTFOLIO</p>
-              <h1>
-                ludigi.
-                <br />
-                work
-              </h1>
-              <p>TECH CONSULTING STUDIO</p>
-            </div>
-            <div className="right">
-              <img
-                src={WorkspaceImage}
-                alt="Workspace with computer monitor showing landscape"
-              />
-            </div>
+        <section className="header flex">
+          <div
+            className="left"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <p>PORTFOLIO</p>
+            <h1>
+              ludigi.
+              <br />
+              work
+            </h1>
+            <p>TECH CONSULTING STUDIO</p>
+          </div>
+          <div className="right">
+            <img
+              src={WorkspaceImage}
+              style={{ objectFit: "cover" }}
+              alt="Workspace with computer monitor showing landscape"
+            />
           </div>
         </section>
         <section>
           <h2>ABOUT ME</h2>
           <div className="flex">
             <div className="left">
-              <img src="profile-picture.jpg" alt="a man" />
+              <img src={PlaceholderImage} alt="a man" />
             </div>
             <div className="right">
               <h3>I am a web and mobile app developer</h3>
@@ -78,80 +83,80 @@ const App = () => {
             </div>
             <div className="right">
               <img
-                src="keyboard-image.jpg"
+                src={PlaceholderImage}
                 alt="Close-up of a mechanical keyboard"
               />
             </div>
           </div>
         </section>
 
-        <section id="work">
+        <section>
           <h2>WORK</h2>
-          <div className="project">
-            <div className="project-images">
+          <div className="project-images flex" style={{ alignItems: "center" }}>
+            <img
+              className="left"
+              style={{ marginRight: "-10%" }}
+              src={Project1Image1}
+              alt="Laptop showing website design"
+            />
+            <img
+              className="right"
+              style={{ transform: "scale(0.6)" }}
+              src={Project1Image2}
+              alt="Mobile screenshot"
+            />
+          </div>
+          <div className="flex">
+            <h3 className="left">Brand Website</h3>
+            <p className="right">
+              I worked with a Sino-French Ludic Education company to create
+              their brand website. The goal was to showcase their dual focus:
+              family fun and tech-enabled learning methods. I developed a
+              simple, one-page website to effectively communicate their unique
+              approach to education.
+            </p>
+          </div>
+        </section>
+        <section className="flex">
+          <div className="left">
+            <h3>Full Solution</h3>
+            <p>
+              I built a mid-scale web app for a Hong Kong-based company
+              specializing in exam preparation for students.
+            </p>
+            <p>
+              The project spans the entire tech stack: database management,
+              server-side logic, and frontend user interface development.
+            </p>
+          </div>
+          <div className="right">
+            <div className="project-images flex">
               <img
-                src="laptop-screenshot.jpg"
-                alt="Laptop showing website design"
+                className="left"
+                src={Project2Image1}
+                style={{ transform: "scale(0.8)" }}
+                alt="Mobile app screenshot showing exam topics"
               />
-              <img src="mobile-screenshot-1.jpg" alt="Mobile screenshot 1" />
-              <img src="mobile-screenshot-2.jpg" alt="Mobile screenshot 2" />
-            </div>
-            <div className="flex">
-              <h3 className="left">Brand Website</h3>
-              <p className="right">
-                I worked with a Sino-French Ludic Education company to create
-                their brand website. The goal was to showcase their dual focus:
-                family fun and tech-enabled learning methods. I developed a
-                simple, one-page website to effectively communicate their unique
-                approach to education.
-              </p>
+              <img
+                className="right"
+                src={Project2Image2}
+                style={{ transform: "scale(0.8)" }}
+                alt="Mobile app screenshot showing exam question"
+              />
             </div>
           </div>
-          <div className="project flex">
-            <div className="left">
-              <h3>Full Solution</h3>
-              <p>
-                I built a mid-scale web app for a Hong Kong-based company
-                specializing in exam preparation for students.
-              </p>
-              <p>
-                The project spans the entire tech stack: database management,
-                server-side logic, and frontend user interface development.
-              </p>
-            </div>
-            <div className="right">
-              <div className="project-images">
-                <img
-                  src="app-screenshot-1.jpg"
-                  alt="Mobile app screenshot showing exam topics"
-                />
-                <img
-                  src="app-screenshot-2.jpg"
-                  alt="Mobile app screenshot showing exam question"
-                />
-              </div>
-            </div>
+        </section>
+        <section className="flex" style={{ minHeight: "500px" }}>
+          <div className="left">
+            <h3>My Tech Stacks</h3>
+            <p>
+              I'm all about finding the right tech solutions for your unique
+              needs. I'll get to know your business, understand your challenges,
+              and pick the perfect tools to build something amazing for you.
+            </p>
           </div>
-          <div className="tech-stacks flex">
-            <div className="left">
-              <h3>My Tech Stacks</h3>
-              <p>
-                I'm all about finding the right tech solutions for your unique
-                needs. I'll get to know your business, understand your
-                challenges, and pick the perfect tools to build something
-                amazing for you.
-              </p>
-            </div>
-            <div className="right">
-              <div className="tech-logos">
-                <img src="typescript-logo.png" alt="TypeScript logo" />
-                <img src="nextjs-logo.png" alt="Next.js logo" />
-                <img src="docker-logo.png" alt="Docker logo" />
-                <img src="nginx-logo.png" alt="NGINX logo" />
-                <img src="postgresql-logo.png" alt="PostgreSQL logo" />
-                <img src="cloudflare-logo.png" alt="Cloudflare logo" />
-              </div>
-            </div>
+          <div className="right">
+            <img src={TechStackImage} alt="Tech Stacks" />
           </div>
         </section>
 
@@ -160,7 +165,7 @@ const App = () => {
           <div className="contact-info flex">
             <div className="left">
               <img
-                src="office-photo.jpg"
+                src={PlaceholderImage}
                 alt="Developer in an office setting"
               />
             </div>
