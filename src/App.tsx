@@ -155,7 +155,11 @@ const App = () => {
           <img src={TechStackImage} className="right" alt="Tech Stacks" />
         </section>
 
-        <section id="work-with-me" className="gray">
+        <section
+          id="work-with-me"
+          className="gray"
+          style={{ marginTop: "80px" }}
+        >
           <h3>Work with Me</h3>
           <div className="contact-info flex">
             <img
