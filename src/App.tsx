@@ -1,6 +1,5 @@
 import React from "react";
 import WorkspaceImage from "./images/workspace.jpg";
-import PlaceholderImage from "./images/placeholder-image.webp";
 import Project1Image1 from "./images/project-1-1.jpeg";
 import Project1Image2 from "./images/project-1-2.jpeg";
 import Project2Image1 from "./images/project-2-1.jpeg";
@@ -69,7 +68,8 @@ const App = () => {
                 management solutions.
               </p>
               <ul>
-                <li>Building tailored websites</li>
+                <li>Building tailored websites and landing pages</li>
+                <li>Building custom web apps</li>
                 <li>Implementing secure user authentication</li>
                 <li>Creating data visualizations</li>
                 <li>Developing user-friendly forms</li>
@@ -114,22 +114,70 @@ const App = () => {
           </div>
           <div className="flex">
             <h3 className="left">Brand Website</h3>
-            <p className="right">
-              I worked with a Sino-French Ludic Education company to create
-              their brand website. The goal was to showcase their dual focus:
-              family fun and tech-enabled learning methods. I developed a
-              simple, one-page website to effectively communicate their unique
-              approach to education.
-            </p>
+            <div className="right">
+              <p>
+                I built a cool website for a Sino-French education company
+                that's all about mixing fun and tech in learning. Here's what I
+                did:
+              </p>
+              <ul>
+                <li>
+                  Created a slick one-page website to show off their unique
+                  approach to education.
+                </li>
+                <li>
+                  The site has two main themes: family fun and high-tech
+                  learning methods. I added a neat background-changing effect
+                  that the client really wanted.
+                </li>
+                <li>
+                  Here's the clever part: I set up two different domains (.tech
+                  and .fun) for the same site. When you visit the .tech domain,
+                  it highlights their techy side of education. Hit up the .fun
+                  domain, and it shows off their family-friendly, fun approach.
+                </li>
+              </ul>
+              <p>
+                So, one website, two domains, two different vibes - all
+                showcasing how this company blends fun and tech in education.
+                Pretty cool, right?
+              </p>
+            </div>
           </div>
         </section>
         <section id="project-2" className="flex">
           <div className="left">
             <h3>Full Solution</h3>
             <p>
-              I built a mid-scale web app for a Hong Kong-based company
-              specializing in exam preparation for students.
+              I created a solid web app for a Hong Kong company that helps
+              students ace their exams. Here's what I did:
             </p>
+            <ul>
+              <li>
+                Built the whole thing from scratch - database, server stuff, and
+                the user interface.
+              </li>
+              <li>
+                Design and set up a sophisticated relational database to cover
+                their business.
+              </li>
+              <li>
+                Coded the behind-the-scenes logic to make everything run
+                smoothly.
+              </li>
+              <li>
+                Implemented a user-friendly interface that students actually
+                enjoy using.
+              </li>
+              <li>
+                Hooked it up with WeChat (it's huge in China) so users can log
+                in and pay easily.
+              </li>
+              <li>
+                Bonus: I helped them grab publicly available data from the web
+                to beef up their content.
+              </li>
+            </ul>
             <p>
               The project spans the entire tech stack: database management,
               server-side logic, and frontend user interface development.
