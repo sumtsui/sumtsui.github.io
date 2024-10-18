@@ -47,11 +47,12 @@ const App = () => {
               <h3>I am a web and mobile app developer</h3>
               <p>
                 My name is Haochen <i>(how-chen), he/him</i>. Over the past 7
-                years, I've worked with businesses of all sizes, including
-                full-time roles as a senior software engineer at EPAM Systems
-                (NYSE: EPAM) and Expedia Group (NASDAQ: EXPE). These positions
-                provided me with valuable experience in large-scale operations
-                and complex systems. Currently, I work as an independent
+                years, I've worked with businesses of all sizes, from local
+                companies, startups, to publicly traded internaional companies.
+                My full-time roles as a senior software engineer at EPAM Systems
+                (NYSE: EPAM) and Expedia Group (NASDAQ: EXPE) provided me with
+                valuable experience in large-scale operations and complex
+                systems. Currently, I work as an independent
                 consultant/contractor.
               </p>
             </div>
