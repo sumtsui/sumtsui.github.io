@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a5e0ec73.css",
+    "main.js": "/static/js/main.e1d5e317.js",
+    "static/js/453.1fc7cb81.chunk.js": "/static/js/453.1fc7cb81.chunk.js",
+    "static/media/workspace.jpg": "/static/media/workspace.75c2be7ef8499ec5ad22.jpg",
+    "static/media/ludigi-me.jpg": "/static/media/ludigi-me.e659fe9b96d128f9815b.jpg",
+    "static/media/project-1-1.jpeg": "/static/media/project-1-1.0f7a875b8aafc7e107c6.jpeg",
+    "static/media/project-1-2.jpeg": "/static/media/project-1-2.990aa8111c61e1ef0e4c.jpeg",
+    "static/media/remote-work.jpg": "/static/media/remote-work.c47f9324ef0f93469082.jpg",
+    "static/media/work-with-me.jpeg": "/static/media/work-with-me.e3a9999e7795272faf14.jpeg",
+    "static/media/woff2": "/static/media/b13d468f88f904752a71651083120b9b.f9fc6d0664618ccf8aa3.woff2",
+    "static/media/project-2-2.jpeg": "/static/media/project-2-2.d9ace2f2c81ba8230248.jpeg",
+    "static/media/tech-stacks.jpeg": "/static/media/tech-stacks.c5c79d9d623f002e1a9c.jpeg",
+    "static/media/project-2-1.jpeg": "/static/media/project-2-1.2028a0258d0d78107ad6.jpeg",
+    "static/media/woff": "/static/media/b46630e470f4040eba7033cf2435edce.34b93368560ff66251a9.woff",
+    "index.html": "/index.html",
+    "main.a5e0ec73.css.map": "/static/css/main.a5e0ec73.css.map",
+    "main.e1d5e317.js.map": "/static/js/main.e1d5e317.js.map",
+    "453.1fc7cb81.chunk.js.map": "/static/js/453.1fc7cb81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5e0ec73.css",
+    "static/js/main.e1d5e317.js"
+  ]
+}
