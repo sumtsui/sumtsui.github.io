@@ -1,4 +1,3 @@
-import React from "react";
 import WorkspaceImage from "./images/workspace.jpg";
 import Project1Image1 from "./images/project-1-1.jpeg";
 import Project1Image2 from "./images/project-1-2.jpeg";
@@ -20,11 +19,14 @@ const App = () => {
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
+              justifyContent: "center",
             }}
           >
             <p style={{ marginTop: "100px" }}>PORTFOLIO</p>
             <h1>Haochen</h1>
-            <p>SOFTWARE ENGINEER & CONSULTANT</p>
+            <p style={{ textAlign: "center" }}>
+              SOFTWARE ENGINEER <br /> & <br /> CONSULTANT
+            </p>
           </div>
           <img
             className="right"
