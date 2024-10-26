@@ -23,12 +23,8 @@ const App = () => {
             }}
           >
             <p style={{ marginTop: "100px" }}>PORTFOLIO</p>
-            <h1>
-              ludigi.
-              <br />
-              work
-            </h1>
-            <p>TECH CONSULTING STUDIO</p>
+            <h1>Haochen</h1>
+            <p>SOFTWARE ENGINEER & CONSULTANT</p>
           </div>
           <img
             className="right"
