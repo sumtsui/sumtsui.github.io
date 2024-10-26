@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6b4e0446.css",
-    "main.js": "/static/js/main.fe50043a.js",
+    "main.js": "/static/js/main.b4bc3861.js",
     "static/js/453.1fc7cb81.chunk.js": "/static/js/453.1fc7cb81.chunk.js",
     "static/media/workspace.jpg": "/static/media/workspace.75c2be7ef8499ec5ad22.jpg",
     "static/media/ludigi-me.jpg": "/static/media/ludigi-me.e659fe9b96d128f9815b.jpg",
@@ -16,11 +16,11 @@
     "static/media/woff": "/static/media/b46630e470f4040eba7033cf2435edce.34b93368560ff66251a9.woff",
     "index.html": "/index.html",
     "main.6b4e0446.css.map": "/static/css/main.6b4e0446.css.map",
-    "main.fe50043a.js.map": "/static/js/main.fe50043a.js.map",
+    "main.b4bc3861.js.map": "/static/js/main.b4bc3861.js.map",
     "453.1fc7cb81.chunk.js.map": "/static/js/453.1fc7cb81.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b4e0446.css",
-    "static/js/main.fe50043a.js"
+    "static/js/main.b4bc3861.js"
   ]
 }

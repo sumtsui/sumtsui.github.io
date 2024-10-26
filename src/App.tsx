@@ -244,7 +244,7 @@ const App = () => {
       </main>
       <footer>
         <p style={{ margin: 0 }}>
-          © {new Date().getFullYear()} Ludigi. All rights reserved.
+          © {new Date().getFullYear()} Haochen. All rights reserved.
         </p>
       </footer>
     </>
