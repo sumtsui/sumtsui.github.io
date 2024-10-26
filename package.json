@@ -21,7 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "upload": "npm run build && scp -i ~/.ssh/my-mac-alicloud-hk.pem -r ./build/* root@8.217.183.255:/root/nginx-certbot/data/www/html/ludigi.work/"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -40,5 +41,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  },
+  "homepage": "https://sumtsui.github.io/"
 }
